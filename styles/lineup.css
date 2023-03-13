@@ -1,0 +1,83 @@
+.lineup__sabado{
+    display: flex;
+    flex-direction: column;
+}
+.titulo__lineup{
+    color: #fff;
+    font-family: calistoga;;
+    font-size: 48px;
+    font-weight: 400;
+    padding: 1em;
+    text-align: center;
+}
+.sabado{
+    color: #fff;
+    background-color: var(--cor-banner-datas);
+    font-family: calistoga;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 1em;
+    padding: 0.5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.bandas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bandas__caixa{
+  padding: 0.5em 0 0 0 ;
+}
+.texto__principal{
+    color: #fff;
+    font-family: var(--tipo-defont-corpo);
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0.5em 0;
+    padding: 0 0.5em;
+    text-align: center;
+}
+.texto__secundaria{
+    color: #fff;
+    font-family: var(--tipo-defont-corpo);
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0.5em 0;
+    padding: 0 0.5em;
+    text-align: center;
+}
+.texto__terceira{
+    color: #fff;
+    font-family: var(--tipo-defont-corpo);
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0.5em 0;
+    padding: 0 0.5em;
+    text-align: center;
+
+}
+.texto__menor{
+    color: #fff;
+    font-family: var(--tipo-defont-corpo);
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0.5em 0;
+    padding: 0 0.5em;
+    text-align: center;
+}
+.domingo{
+    color: #fff;
+    background-color: var(--cor-banner-datas);
+    font-family: calistoga;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 2em 0.5em 0.4em;
+    padding: 0.5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.imagem__homepage2{
+    width: 100vw;
+    margin: 2.4em 0 0 0;
+}

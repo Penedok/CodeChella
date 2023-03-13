@@ -1,0 +1,64 @@
+
+.cabecalho{
+    align-items: center;
+    background-color: var(--cor-cabecalho-rodape);
+    display: flex;
+    position: relative;
+    padding: 2em;
+    justify-content: space-around;
+}
+.container__cabecalho{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.cabecalho__menu-imagem{
+    background: url("../imagens/menu.svg") no-repeat center;
+    display:inline-block ;
+    height: 20px;
+    margin-left: 2em;
+    width: 20px;
+}
+.meu__botao{
+   display: none;
+}
+.lista-menu{
+    background: var(--cor-cabecalho-rodape);
+    display: none;
+    left: 42%;
+    position: absolute;
+    text-align: center;
+    top: 100%;
+}
+.meu__botao:checked ~ .lista-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-menu__item{
+background: url("../imagens/Line\ 4.svg") no-repeat bottom;
+
+}
+.lista-menu__link{
+    color: aliceblue;
+    display: block;
+    font-family: var(--tipo-defont-corpo);
+    font-weight: 700;
+    font-size: 20px;
+    margin: 1em;
+    padding-left: 0.4em;
+    text-decoration: none;
+    text-align: center;
+   
+}
+.menu__rotulo{
+    display: flex;
+    padding: 0 1.5em;
+}
+.logo__cabecalho{
+    text-align: center;
+    padding-left: 1.2em;
+}
+
+
