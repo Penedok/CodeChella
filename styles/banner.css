@@ -1,0 +1,95 @@
+.banner-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column; 
+    background: linear-gradient(#304968, #36C1A0, #4650BD);
+}
+.banner__boasvindas-home{
+    display: flex;
+    width: 100vw;   
+}
+.banner__imagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagem__homepage{
+    margin: 2em 0;
+}
+.boasvindas__desktop{
+    display: none;
+}
+.homepage__desktop{
+    display: none;
+}
+.boasvindas__pc{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+.banner__boasvindas-home{
+    display: none;
+}
+.imagem__homepage{
+    display: none;
+}
+.boasvindas__pc{
+    display: none;
+}
+.boasvindas__desktop{
+    display: flex;
+}
+.homepage__desktop{
+    display: flex;
+    padding: 2em 4em;
+}
+}
+
+@media screen and (min-width:1440px){
+.banner__boasvindas-home{
+   display: none;
+}
+.boasvindas__desktop{
+   display: none;
+} 
+ .boasvindas__pc{
+    display: flex;
+}
+.banner__imagem{
+    padding: 1em 0;
+
+}
+}
+
+@media  screen and (min-width:1999px) {
+    .texto{
+        width: 60%;
+    }
+    .homepage__desktop{
+        width: 100vw;
+    }
+    .botao__ingresso{
+     margin:  0 15em;
+    }
+    .texto__botao{
+        text-align: center;
+    
+    }
+    .lineup__sabado{
+        padding: 0 4em;
+    }
+    .lineup__domingo{
+        padding: 0 0 2em 0;
+    
+    }
+           
+    
+}
+
+

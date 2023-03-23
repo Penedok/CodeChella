@@ -1,0 +1,215 @@
+.lineup__sabado{
+    display: flex;
+    flex-direction: column;
+}
+.titulo__lineup{
+    color: #fff;
+    font-family: calistoga;;
+    font-size: 48px;
+    font-weight: 400;
+    padding: 1em;
+    text-align: center;
+}
+.sabado{
+    color: #fff;
+    background-color: var(--cor-banner-datas);
+    font-family: calistoga;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 1em;
+    padding: 0.5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.bandas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0.5em;
+}
+.bandas__caixa{
+  padding: 0.5em 0 0 0 ;
+}
+.texto__principal{
+    color: #fff;
+    font-family: var(--tipo-defont-corpo);
+    font-size: 48px;
+    font-weight: 800;
+    padding: 0 0.5em;
+    text-align: center;
+}
+.texto__secundaria{
+    color: #fff;
+    font-family: var(--tipo-defont-corpo);
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0.5em 0;
+    text-align: center;
+}
+.texto__terceira{
+    color: #fff;
+    font-family: var(--tipo-defont-corpo);
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0.5em 0;
+    padding: 0 0.5em;
+    text-align: center;
+
+}
+.texto__menor{
+    color: #fff;
+    font-family: var(--tipo-defont-corpo);
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0.5em 0;
+    padding: 0 0.5em;
+    text-align: center;
+}
+.domingo{
+    color: #fff;
+    background-color: var(--cor-banner-datas);
+    font-family: calistoga;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 1em 0.5em 0.4em;
+    padding: 0.5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.titulo__lineup-domingo{
+    padding-bottom: 2em;
+}
+.imagem__homepage2{
+    width: 100vw;
+    margin: 2.4em 0 0 0;
+}
+.homepage2__desktop{
+    display: none;
+}
+.homepage2__pc{
+    display: none;
+}
+.linha__domingo{
+    display: none;
+}
+.linha__sabado{
+    display: none;
+}
+
+.linha__domingo-pc{
+    display: none;
+}
+.linha__sabado-pc{
+    display: none;
+}
+@media screen and (min-width:768px){
+
+.homepage2__pc{
+    display: none;
+}
+.titulo__lineup{
+    font-size: 64px;
+ }
+ .titulo__lineup-sabado{
+    display: flex;
+    justify-content: center;
+ }
+.texto__secundaria{
+    padding-left: 0.8em;
+}
+ .sabado{
+    margin: 0 0.5em 1em;
+    font-size: 48px;
+ }
+ .linha__sabado{
+    display: flex;
+    padding: 0 0.5em 3em ;
+ }
+ .bandas__caixa{
+    display: flex;
+ }
+ .domingo{
+  margin: 1em 0.6em;
+  font-size: 48px;
+ }
+ .linha__domingo{
+    display: flex;
+ }
+ .titulo__lineup-domingo{
+    display: flex;
+    justify-content: center;
+ }
+ .imagem__homepage2{
+    display: none;
+ }
+ .homepage2__desktop{
+  display: flex;
+  margin-top: 1.5em;  
+ }
+ .titulo{
+    display: flex;
+    justify-content: center;
+ }
+ .linha__domingo-pc{
+    display: none;
+    
+ }
+ .linha__sabado-pc{
+    display: none;
+ }
+
+}
+
+@media screen and (min-width:1440px){
+
+
+.homepage2__desktop{
+    display: none;
+}
+.titulo{
+    padding: 2.5em 0 0 0;
+}
+.titulo__lineup{
+ padding-bottom: 0;
+}    
+
+.sabado{
+    font-size: 48px;
+    margin: 1em 0.8em 0.2em ;
+}   
+.bandas{
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.banda__caixa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2.5em;
+}
+.domingo{
+    font-size: 48px;
+    margin: 1.3em 0.8em 0.4em;
+}
+.homepage2__pc{
+    display: flex;
+    margin-top: 2em;
+}
+.linha__domingo{
+    display: none;
+}
+.linha__sabado{
+    display: none;
+}
+.linha__sabado-pc{
+    display: flex;
+    padding-top: 2em;
+}
+.linha__domingo-pc{
+    display: flex;
+    padding-top: 2.5em;
+}
+
+}
